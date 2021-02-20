@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  min-height: 100%;
+  min-width: 1024px;
+  bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    right: 0;
+    top: 0;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.vh-center {
+  margin: auto auto;
+  width: 100%;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.one {
+  background: #bde4ff;
+}
+.two {
+  background: #000000;
+}
+.three {
+  background: #000000;
+}
+.four {
+  background: #000000;
+}
+.five {
+  background: #000000;
+}
+.six {
+  background: #000000;
+}
+.seven {
+  background: #000000;
+}
+.eight {
+  background: #000000;
+}
+.center {
+  text-align: center;
+}
+
+
+.image_yu {
+  width: 100%; 
+  min-height: 100%;
+  min-width: 1024px;
+  bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    right: 0;
+    top: 0;
+  -o-object-fit: contain;
+  object-fit: contain;
+
+}
+
+.story {
+  display: flex;
+  justify-content: center;
+  text-align: bottom;
+  width: 100%; 
+  min-width: 1024px;
+  
+}
+
+
